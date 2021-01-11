@@ -1,0 +1,58 @@
+.progressStep{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+}
+.progressStep>h1{
+    margin:1rem;
+    font-size:1.5rem;
+    font-weight: 600;
+}
+.progressStep .progresser{
+    width: 100%;
+}
+.progressStep .stepbar{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0;
+}
+.progressStep .stepbar .step{
+    width: 20px;
+    height:20px;
+    background-color: grey;
+    border-radius: 50%;
+    list-style-type: none;
+}
+.progressStep .stepbar .step.active{
+    background-color:#9ec3eb;
+}
+.progressStep .stepbar .step>.text{
+    position: absolute;
+    width:50%;
+    top:calc(50% + 9px);
+    text-align: center;
+}
+
+.progressStep .stepbar .step::after{
+    position: absolute;
+    content: "";
+    width:calc(50% - 10px);
+    height: 3px;
+    top:calc(100% - 12px);
+    background-color:gray;
+    z-index:-2;
+}
+.progressStep .stepbar .step.active::after{
+    background-color:#9ec3eb;
+}
+.progressStep .stepbar>li:last-child::after{
+    content: none;
+}
+@media (max-width: 576px){
+    .progressStep .stepbar .step>.text{
+      display: none;
+    }
+}

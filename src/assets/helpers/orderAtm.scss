@@ -1,0 +1,27 @@
+.paymentinfo .infoContent .selectinfo{
+    position: relative;
+    margin-left:10px;
+}
+.paymentinfo .infoContent .selectinfo::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-right:   6px solid transparent;
+    border-left: 6px solid transparent;
+    border-top: 10px solid black;
+    right:13px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    //可以穿透底下的元素，穿過箭頭點到選單
+}
+.paymentinfo .infoContent #selects{
+    width:14rem;
+    height:50px;
+    padding:12px 12px;
+    font-size: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

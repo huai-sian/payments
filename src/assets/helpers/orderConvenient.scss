@@ -1,0 +1,105 @@
+.paymentCon{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 212, 212);
+}
+.paymentCon .paymentinfo{
+    background-color: white;
+    padding:1.5rem;
+    border-radius:20px;
+    margin-top:2rem;
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttons{
+    margin-top: 1.5rem;
+}
+.btn-back{
+    border:none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-size:1.2rem;
+    color:white;
+    background-color: #34495E;
+    margin:0 1rem;
+    
+}
+.btn-back:hover{
+    background-color: rgb(207, 206, 206);
+}
+.btn-next{
+    border:none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-size:1.2rem;
+    color:white;
+    background-color: #e6b44a;
+    margin:0 1rem;
+}
+.btn-next:hover{
+    background-color: #fad380;
+}
+.paymentinfo .text{
+    margin:1rem 0;
+}
+.paymentinfo .info{
+    display: flex;
+    align-items: center;
+    margin-bottom:1rem;
+}
+.paymentinfo .info .infoContent{
+    display: flex;
+    align-items: center;
+}
+.paymentinfo .info .infoContent .imagefr{
+    width:2.5rem;
+    height: 2.7rem;
+    margin:0 5px;
+    cursor: pointer;
+}
+.paymentinfo .info .infoContent .imagefr:hover{
+    border:2px solid #34495E;
+}
+.paymentinfo .info .infoContent .imagefr.active{
+    border:2px solid #34495E;
+}
+.paymentinfo .info .infoContent .imagefr>img{
+    width: 100%;
+    height: 100%;
+}
+.paymentinfo .info .infoContent>span{
+    font-size:1.4rem;
+    font-weight: 600;
+    color:#698caf;
+    margin-left:10px;
+    margin-right: 1.5rem;
+}
+@media (max-width: 576px){
+    .btn-back{
+        width: 8rem;
+        height: 3rem;
+        font-size:1rem;
+        margin:0 0.8rem;
+    }
+    .btn-next{
+        width: 8rem;
+        height: 3rem;
+        font-size:1rem;
+        margin:0 0.8rem;
+    }
+    .paymentinfo .info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .paymentinfo .info .infoContent{
+        margin-bottom:1rem;
+    }
+    .paymentCon .paymentinfo{
+        width:96%;
+        padding:0.8rem;
+    }
+}

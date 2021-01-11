@@ -1,0 +1,121 @@
+.paymentCard{
+    flex-direction:column;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 212, 212);
+    align-items: center;
+}
+.paymentCard .paymentCardinfo{
+    margin-bottom:1rem;
+    background-color: white;
+    padding:1.5rem;
+    border-radius:20px;
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:550px;
+}
+.paymentCard .card-info{
+    width: 550px;
+    margin-bottom:1rem;
+    background-color: white;
+    padding:1.5rem;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paymentCard .card-info .content{
+    padding:12px 0;
+    border-bottom:1px solid rgb(231, 230, 230);
+    position: relative;
+}
+.paymentCard .card-info .content .hint-l{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:78%;
+ }
+.paymentCard .card-info .content .hint-sm{
+    display:none
+}
+.paymentCard .card-info .content label{
+    width:110px;
+    font-size:0.9rem;
+}
+.paymentCard .card-info .content input{
+    width:260px;
+    padding:12px 12px;
+    height: 50px;
+    font-size:16px;
+}
+.paymentCard .card-info .content span{
+    display: inline-block;
+}
+.paymentCard .paymentCardinfo .info{
+    margin-bottom: 0;
+}
+.paymentCardinfo .info{
+    display: flex;
+    align-items: center;
+}
+.paymentCardinfo .info .infoContent{
+    display: flex;
+    align-items: center;
+}
+.paymentCardinfo .info .infoContent .imagefr{
+    width:2.5rem;
+    height: 2.7rem;
+    margin:0 5px;
+}
+
+.paymentCardinfo .info .infoContent .imagefr>img{
+    width: 100%;
+    height: 100%;
+}
+.paymentCardinfo .info .infoContent>span{
+    font-size:1.4rem;
+    font-weight: 600;
+    color:#698caf;
+    margin-left:10px;
+    margin-right: 1.5rem;
+}
+@media (max-width: 768px){
+    // .paymentCard .card-info .content img{
+    //     left:74%;
+    //  }
+}
+@media (max-width: 576px){
+    .paymentCard .paymentCardinfo{
+        width: 96%;
+    }
+    .paymentCard .card-info{
+        width: 96%;
+    }
+    .paymentCard .card-info .content label{
+        margin-bottom:0.5rem;
+    }
+    .paymentCard .card-info .content .hint-l{
+        display: none;
+     }
+     .paymentCard .card-info .content .hint-sm{
+        display: block;
+        position: absolute;
+        top: -35px;
+        left:58%;
+     }
+     .paymentCardinfo .info{
+         justify-content: space-around;
+     }
+     .paymentCard .card-info .content span{
+        margin-top:10px;
+    }
+    .paymentCardinfo .info .infoContent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .paymentCardinfo .info .infoContent p{
+        margin-bottom:6px;
+    }
+}

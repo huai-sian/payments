@@ -1,0 +1,24 @@
+.complete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.complete .done{
+    margin:1.2rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:#6e9bc7;
+}
+.complete .donepara{
+    font-size:1rem;
+    margin-bottom: 1.5rem;
+}
+.btn-home{
+    border:none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-size:1.2rem;
+    color:white;
+    background-color: #e6b44a;
+}

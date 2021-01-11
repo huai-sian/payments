@@ -1,0 +1,126 @@
+.orders{
+    margin-top:3rem;
+    margin-bottom:3rem;
+    padding-left:1.5rem;
+    padding-right: 1.5rem;
+}
+.orderul{
+    border:3px solid #34495E;
+    border-radius:6px;
+    padding:1.5rem;
+    padding-top:1.5rem;
+    margin-top:0.5rem;
+    margin-bottom:2rem;
+    position: relative;
+}
+.orderul::after{
+    position: absolute;
+    content: '';
+    bottom:-10px;
+    border-top:15px solid #34495E;
+    border-left: 15px solid #34495E;
+    left:50%;
+    transform: translateX(-50%);
+    transform: rotate(45deg);
+}
+.orders .pro-img{
+    height:3rem;
+    width:4rem;
+}
+.orders .pro-img>img{
+    width: 100%;
+    height: 100%;
+}
+.orderlist{
+    padding-top:1.5rem;
+    padding-bottom:0.5rem;
+    border-bottom:1px solid rgb(187, 186, 186);
+}
+.note{
+    color:gray;
+ }
+.note ul{
+   padding-left:2rem;
+}
+.note ul>li{
+    list-style-type: disc;
+    line-height:1.3rem;
+    font-size:0.8rem;
+}
+.summaryli{
+    padding-top:1rem;
+    padding-right:2rem;
+}
+.summaryli .total{
+    font-weight: 600;
+    font-size:1.2rem;
+}
+.orderlist h4{
+    font-size:1.2rem;
+}
+.orderlist input[type=number]{
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.numControl .btn-minus{
+    border:1px solid #34495E;
+    color:#34495E;
+    padding:6.5px 8px;
+    border-radius:4px 0 0 4px;
+    outline: none;
+    background:transparent;
+}
+.numControl .btn-minus:hover{
+    color:#85929E;
+    border:1px solid #34495E;
+
+}
+.numControl .btn-minus:focus{
+    color:#85929E;
+    border:1px solid #34495E;
+    outline: none;
+}
+.numControl .btn-plus{
+    border:1px solid #34495E;
+    padding:6.5px 8px;
+    border-radius:0 4px 4px 0;
+    color:#34495E;
+    outline: none;
+    background:transparent;
+}
+.numControl .amount{
+    border:1px solid #34495E;
+    padding:4px 8px;
+    margin: 0;
+    outline: none;
+    text-align: center;
+    border-radius: none;
+    width: 4.5rem;
+}
+.numControl .amount:focus{
+    border:1px solid #85929E;
+}
+@media (max-width: 576px){
+    .orderlist h4{
+        font-size:1rem;
+    }
+    .orderlist p{
+        font-size: 0.8rem;
+    }
+    .numControl{
+        float: right;
+    }
+    .numControl .btn-minus{
+        padding:3px 6px; 
+    }
+    .numControl .btn-plus{
+        padding:3px 6px; 
+    }
+    .numControl .amount{
+        padding:2px 6px;
+        width: 3rem;
+    }
+}
