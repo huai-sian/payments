@@ -109,7 +109,7 @@ export default {
             this.sumtotal=newtotal;
             this.$bus.$emit('total:get', this.sumtotal);
             return newtotal
-            }
         }
+    }
 }
 </script>
