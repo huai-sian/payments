@@ -1,12 +1,6 @@
 <template>
-    <div class='footer'>
-        <footer>
-            <p>Copy right Company 2022</p>
-        </footer>
-    </div>
+  <footer class="site-footer" data-region="G5">
+    <span>Copy right Company 2020</span
+    ><span>僅供流程示範 · 不進行實際付款</span>
+  </footer>
 </template>
-<script>
-export default {
-    name:'PaymentFooter'
-}
-</script>

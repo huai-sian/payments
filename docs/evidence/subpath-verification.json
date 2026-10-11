@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-11T13:47:03.304Z",
+  "base": "http://127.0.0.1:65492/Payment/",
+  "records": [
+    {
+      "route": "check",
+      "reload": true,
+      "images": true
+    },
+    {
+      "route": "orderatm",
+      "reload": true,
+      "images": true
+    },
+    {
+      "route": "ordercard",
+      "reload": true,
+      "images": true
+    },
+    {
+      "route": "orderconvenient",
+      "reload": true,
+      "images": true
+    },
+    {
+      "route": "paycomplete",
+      "reload": true,
+      "images": true
+    }
+  ],
+  "errors": []
+}

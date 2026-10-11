@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-11T13:46:18.573Z",
+  "checks": [
+    {
+      "route": "check",
+      "matchesBaseline": true,
+      "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n確認訂單金額\n訂單編號：20200520\n精美商品\n\n商品說明商品說明商品說明\n\n$1000\n精美商品\n\n商品說明商品說明商品說明\n\n$1000\n共2項\n總計\n$2000\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n\nCopy right Company 2020"
+    },
+    {
+      "route": "orderatm",
+      "matchesBaseline": true,
+      "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇銀行\n\n台灣銀行\n第一銀行\n華南銀行\n土地銀行\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n返回訂單下一步\n\nCopy right Company 2020"
+    },
+    {
+      "route": "ordercard",
+      "matchesBaseline": true,
+      "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n應付金額\n\n$2000\n\n支援使用卡種類\n\n信用卡卡號\n持卡人英文姓名\n有效年月\n安全驗證碼\n手機號碼\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n返回訂單下一步\n\nCopy right Company 2020"
+    },
+    {
+      "route": "orderconvenient",
+      "matchesBaseline": true,
+      "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇超商\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n返回訂單下一步\n\nCopy right Company 2020"
+    },
+    {
+      "route": "paycomplete",
+      "matchesBaseline": true,
+      "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n訂單成立！\n\n訂單請於兩天內完成匯款，逾期店家將有權取消訂單。\n\n回首頁\n\nCopy right Company 2020\n\nComplete!\nWe are working for your order!\nOK"
+    }
+  ]
+}

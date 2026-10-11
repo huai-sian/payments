@@ -1,0 +1,422 @@
+[
+  {
+    "width": 1440,
+    "route": "check",
+    "url": "https://huai-sian.github.io/Payment/#/order/check",
+    "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n確認訂單金額\n訂單編號：20200520\n精美商品\n\n商品說明商品說明商品說明\n\n$1000\n精美商品\n\n商品說明商品說明商品說明\n\n$1000\n共2項\n總計\n$2000\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n\nCopy right Company 2020",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/hans-vivek-57eUYHIIIH0-unsplash.37d5d986.jpg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/hans-vivek-57eUYHIIIH0-unsplash.37d5d986.jpg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "orderatm",
+    "url": "https://huai-sian.github.io/Payment/#/order/orderatm",
+    "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇銀行\n\n台灣銀行\n第一銀行\n華南銀行\n土地銀行\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n返回訂單下一步\n\nCopy right Company 2020",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "ordercard",
+    "url": "https://huai-sian.github.io/Payment/#/order/ordercard",
+    "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n應付金額\n\n$2000\n\n支援使用卡種類\n\n信用卡卡號\n持卡人英文姓名\n有效年月\n安全驗證碼\n手機號碼\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n返回訂單下一步\n\nCopy right Company 2020",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/visa.17821423.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/mastercard.b34381c4.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/jcb.5320bc5a.svg",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "orderconvenient",
+    "url": "https://huai-sian.github.io/Payment/#/order/orderconvenient",
+    "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇超商\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n返回訂單下一步\n\nCopy right Company 2020",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/1055px-7-eleven_logo.svg.f3fe3ec9.png",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/ein_vi.17ea9d83.jpg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/okmart_app_icon.a32346ac.jpg",
+        "loaded": true
+      },
+      {
+        "src": "inline image",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "paycomplete",
+    "url": "https://huai-sian.github.io/Payment/#/order/paycomplete",
+    "text": "訂單資訊\nStep1 選定支付方式\nStep2 輸入信用卡資訊或取得支付代碼\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n訂單成立！\n\n訂單請於兩天內完成匯款，逾期店家將有權取消訂單。\n\n回首頁\n\nCopy right Company 2020\n\nComplete!\nWe are working for your order!\nOK",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      },
+      {
+        "src": "",
+        "loaded": false
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "check",
+    "url": "https://huai-sian.github.io/Payment/#/order/check",
+    "text": "訂單資訊\n確認訂單金額\n訂單編號：20200520\n精美商品\n\n商品說明商品說明商品說明\n\n$1000\n精美商品\n\n商品說明商品說明商品說明\n\n$1000\n共2項\n總計\n$2000\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n\nCopy right Company 2020",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/hans-vivek-57eUYHIIIH0-unsplash.37d5d986.jpg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/hans-vivek-57eUYHIIIH0-unsplash.37d5d986.jpg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "orderatm",
+    "url": "https://huai-sian.github.io/Payment/#/order/orderatm",
+    "text": "訂單資訊\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇銀行\n\n台灣銀行\n第一銀行\n華南銀行\n土地銀行\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n返回訂單下一步\n\nCopy right Company 2020",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "ordercard",
+    "url": "https://huai-sian.github.io/Payment/#/order/ordercard",
+    "text": "訂單資訊\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n應付金額\n\n$2000\n\n支援使用卡種類\n\n信用卡卡號\n持卡人英文姓名\n有效年月\n安全驗證碼\n手機號碼\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n返回訂單下一步\n\nCopy right Company 2020",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/visa.17821423.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/mastercard.b34381c4.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/jcb.5320bc5a.svg",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "orderconvenient",
+    "url": "https://huai-sian.github.io/Payment/#/order/orderconvenient",
+    "text": "訂單資訊\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇超商\n\n注意事項\n\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n返回訂單下一步\n\nCopy right Company 2020",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/1055px-7-eleven_logo.svg.f3fe3ec9.png",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/ein_vi.17ea9d83.jpg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/okmart_app_icon.a32346ac.jpg",
+        "loaded": true
+      },
+      {
+        "src": "inline image",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "paycomplete",
+    "url": "https://huai-sian.github.io/Payment/#/order/paycomplete",
+    "text": "訂單資訊\n付款方式\n\nATM付款\n\n信用卡付款\n\n超商代碼付款\n\n訂單成立！\n\n訂單請於兩天內完成匯款，逾期店家將有權取消訂單。\n\n回首頁\n\nCopy right Company 2020\n\nComplete!\nWe are working for your order!\nOK",
+    "links": [
+      {
+        "text": "ATM付款",
+        "href": ""
+      },
+      {
+        "text": "信用卡付款",
+        "href": ""
+      },
+      {
+        "text": "超商代碼付款",
+        "href": ""
+      }
+    ],
+    "images": [
+      {
+        "src": "https://huai-sian.github.io/Payment/img/atm-machine.6b3ea7bc.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/credit-card.fb9852fa.svg",
+        "loaded": true
+      },
+      {
+        "src": "https://huai-sian.github.io/Payment/img/store.e9143755.svg",
+        "loaded": true
+      },
+      {
+        "src": "",
+        "loaded": false
+      }
+    ]
+  }
+]

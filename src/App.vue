@@ -1,9 +1,3 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <RouterView />
 </template>
-
-<style lang="scss">
-@import "./assets/all";
-</style>

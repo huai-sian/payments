@@ -1,42 +1,30 @@
-<template>
-    <div>
-        <div class='container-fluid order px-0'>
-            <PaymentTop/>
-            <transition name='fade' mode="out-in">
-                <router-view></router-view>
-            </transition>
-            <PaymentFooter/>
-        </div>
-    </div>
-</template>
-<script>
-import PaymentTop from'../components/PaymentTop';
-import PaymentFooter from '../components/PaymentFooter'
-export default {
-    name: 'Orders',
-    components: {
-        PaymentFooter,
-        PaymentTop
-    }
-}
+<script setup>
+import { nextTick, ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
+import PaymentTop from '../components/PaymentTop.vue'
+import ProgressStep from '../components/ProgressStep.vue'
+import PaymentFooter from '../components/PaymentFooter.vue'
+const route = useRoute()
+const main = ref(null)
+watch(
+  () => route.path,
+  async () => {
+    await nextTick()
+    main.value?.focus({ preventScroll: true })
+  },
+)
 </script>
-<style lang="scss" scoped>
-    .fade-enter{
-        opacity: 0;
-    }
-    .fade-enter-to{
-        opacity: 1;
-    }
-    .fade-enter-active{
-        transition:opacity 0.4s;
-    }
-    .fade-leave{
-        opacity: 1;
-    }
-    .fade-leave-to{
-        opacity: 0;
-    }
-    .fade-leave-active{
-        transition:opacity 0.4s;
-    }
-</style>
+
+<template>
+  <div class="site-shell">
+    <a class="skip-link" href="#main-content" @click.prevent="main?.focus()"
+      >跳至主要內容</a
+    >
+    <PaymentTop />
+    <main id="main-content" ref="main" tabindex="-1" class="container">
+      <ProgressStep :nowstep="route.meta.step" />
+      <RouterView />
+    </main>
+    <PaymentFooter />
+  </div>
+</template>

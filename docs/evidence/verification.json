@@ -1,0 +1,545 @@
+{
+  "date": "2026-10-11T13:50:50.365Z",
+  "browser": "155.0.8059.39",
+  "base": "http://127.0.0.1:4173/",
+  "assertions": [
+    "check/1440: section order",
+    "check/1440: no overflow",
+    "check/1440: images loaded",
+    "check/1440: legacy visible text",
+    "check/1440: payment destinations",
+    "check/1440: direct load + refresh",
+    "orderatm/1440: section order",
+    "orderatm/1440: no overflow",
+    "orderatm/1440: images loaded",
+    "orderatm/1440: legacy visible text",
+    "orderatm/1440: payment destinations",
+    "orderatm/1440: direct load + refresh",
+    "ordercard/1440: section order",
+    "ordercard/1440: no overflow",
+    "ordercard/1440: images loaded",
+    "ordercard/1440: legacy visible text",
+    "ordercard/1440: payment destinations",
+    "ordercard/1440: direct load + refresh",
+    "orderconvenient/1440: section order",
+    "orderconvenient/1440: no overflow",
+    "orderconvenient/1440: images loaded",
+    "orderconvenient/1440: amount and store grouping",
+    "orderconvenient/1440: legacy visible text",
+    "orderconvenient/1440: payment destinations",
+    "orderconvenient/1440: direct load + refresh",
+    "paycomplete/1440: section order",
+    "paycomplete/1440: no overflow",
+    "paycomplete/1440: images loaded",
+    "paycomplete/1440: legacy visible text",
+    "paycomplete/1440: payment destinations",
+    "paycomplete/1440: direct load + refresh",
+    "check/768: section order",
+    "check/768: no overflow",
+    "check/768: images loaded",
+    "check/768: legacy visible text",
+    "check/768: payment destinations",
+    "check/768: direct load + refresh",
+    "orderatm/768: section order",
+    "orderatm/768: no overflow",
+    "orderatm/768: images loaded",
+    "orderatm/768: legacy visible text",
+    "orderatm/768: payment destinations",
+    "orderatm/768: direct load + refresh",
+    "ordercard/768: section order",
+    "ordercard/768: no overflow",
+    "ordercard/768: images loaded",
+    "ordercard/768: legacy visible text",
+    "ordercard/768: payment destinations",
+    "ordercard/768: direct load + refresh",
+    "orderconvenient/768: section order",
+    "orderconvenient/768: no overflow",
+    "orderconvenient/768: images loaded",
+    "orderconvenient/768: amount and store grouping",
+    "orderconvenient/768: legacy visible text",
+    "orderconvenient/768: payment destinations",
+    "orderconvenient/768: direct load + refresh",
+    "paycomplete/768: section order",
+    "paycomplete/768: no overflow",
+    "paycomplete/768: images loaded",
+    "paycomplete/768: legacy visible text",
+    "paycomplete/768: payment destinations",
+    "paycomplete/768: direct load + refresh",
+    "check/390: section order",
+    "check/390: no overflow",
+    "check/390: images loaded",
+    "check/390: legacy visible text",
+    "check/390: payment destinations",
+    "check/390: direct load + refresh",
+    "orderatm/390: section order",
+    "orderatm/390: no overflow",
+    "orderatm/390: images loaded",
+    "orderatm/390: legacy visible text",
+    "orderatm/390: payment destinations",
+    "orderatm/390: direct load + refresh",
+    "ordercard/390: section order",
+    "ordercard/390: no overflow",
+    "ordercard/390: images loaded",
+    "ordercard/390: legacy visible text",
+    "ordercard/390: payment destinations",
+    "ordercard/390: direct load + refresh",
+    "orderconvenient/390: section order",
+    "orderconvenient/390: no overflow",
+    "orderconvenient/390: images loaded",
+    "orderconvenient/390: amount and store grouping",
+    "orderconvenient/390: legacy visible text",
+    "orderconvenient/390: payment destinations",
+    "orderconvenient/390: direct load + refresh",
+    "paycomplete/390: section order",
+    "paycomplete/390: no overflow",
+    "paycomplete/390: images loaded",
+    "paycomplete/390: legacy visible text",
+    "paycomplete/390: payment destinations",
+    "paycomplete/390: direct load + refresh",
+    "check/320: section order",
+    "check/320: no overflow",
+    "check/320: images loaded",
+    "check/320: legacy visible text",
+    "check/320: payment destinations",
+    "check/320: direct load + refresh",
+    "orderatm/320: section order",
+    "orderatm/320: no overflow",
+    "orderatm/320: images loaded",
+    "orderatm/320: legacy visible text",
+    "orderatm/320: payment destinations",
+    "orderatm/320: direct load + refresh",
+    "ordercard/320: section order",
+    "ordercard/320: no overflow",
+    "ordercard/320: images loaded",
+    "ordercard/320: legacy visible text",
+    "ordercard/320: payment destinations",
+    "ordercard/320: direct load + refresh",
+    "orderconvenient/320: section order",
+    "orderconvenient/320: no overflow",
+    "orderconvenient/320: images loaded",
+    "orderconvenient/320: amount and store grouping",
+    "orderconvenient/320: legacy visible text",
+    "orderconvenient/320: payment destinations",
+    "orderconvenient/320: direct load + refresh",
+    "paycomplete/320: section order",
+    "paycomplete/320: no overflow",
+    "paycomplete/320: images loaded",
+    "paycomplete/320: legacy visible text",
+    "paycomplete/320: payment destinations",
+    "paycomplete/320: direct load + refresh",
+    "unknown route preserves query and fragment",
+    "quantity boundaries, manual input, totals across all payment methods, active states and queries",
+    "bank/store choice, all result paths, return/home links, card validation, focus, keyboard hints, responsive hint assets, no saved card data, refresh resets sample",
+    "reduced motion and visible keyboard focus",
+    "no runtime errors",
+    "no external requests or payment submission"
+  ],
+  "records": [
+    {
+      "route": "check",
+      "width": 1440,
+      "regions": [
+        "G1",
+        "G2",
+        "S1",
+        "S2",
+        "G3",
+        "G4",
+        "G5"
+      ],
+      "screenshot": "rebuilt-check-1440.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n01\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n確認訂單金額\n訂單編號：20200520\nORDER DETAILS\n精美商品\n\n商品說明商品說明商品說明\n\n−\n+\n$1000\n精美商品\n\n商品說明商品說明商品說明\n\n−\n+\n$1000\n共2項\n總計\n$2000\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n↗\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "orderatm",
+      "width": 1440,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S3",
+        "S4",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-orderatm-1440.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n✓\n信用卡付款\n↗\n超商代碼付款\n↗\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇銀行\n台灣銀行\n第一銀行\n華南銀行\n土地銀行\n\n流程示範，不會產生實際繳費代碼或交易。\n\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "ordercard",
+      "width": 1440,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S5",
+        "S6",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-ordercard-1440.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n✓\n超商代碼付款\n↗\n應付金額\n\n$2000\n\n支援使用卡種類\n\n僅供流程示範，請使用測試資料，不會扣款或送出資料。\n\n信用卡卡號\n持卡人英文姓名\n有效年月\n?\n安全驗證碼\n?\n手機號碼\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "orderconvenient",
+      "width": 1440,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S3",
+        "S7",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-orderconvenient-1440.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n✓\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇超商\n7-ELEVEN\n全家\nOK mart\n萊爾富\n\n流程示範，不會產生實際繳費代碼或交易。\n\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "paycomplete",
+      "width": 1440,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S8",
+        "G5"
+      ],
+      "screenshot": "rebuilt-paycomplete-1440.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n✓\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n↗\n✓\n\n流程示範結束\n\n訂單成立！\n\n此為示範畫面，未建立實際訂單，也未進行扣款。\n\n訂單請於兩天內完成匯款，逾期店家將有權取消訂單。\n\n以上為舊版結果文案，僅供展示。\n\n回首頁\n→\n舊版提示文字（示範）\n\nComplete!\n\nWe are working for your order!\n\nOK\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "check",
+      "width": 768,
+      "regions": [
+        "G1",
+        "G2",
+        "S1",
+        "S2",
+        "G3",
+        "G4",
+        "G5"
+      ],
+      "screenshot": "rebuilt-check-768.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n01\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n確認訂單金額\n訂單編號：20200520\nORDER DETAILS\n精美商品\n\n商品說明商品說明商品說明\n\n−\n+\n$1000\n精美商品\n\n商品說明商品說明商品說明\n\n−\n+\n$1000\n共2項\n總計\n$2000\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n↗\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "orderatm",
+      "width": 768,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S3",
+        "S4",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-orderatm-768.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n✓\n信用卡付款\n↗\n超商代碼付款\n↗\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇銀行\n台灣銀行\n第一銀行\n華南銀行\n土地銀行\n\n流程示範，不會產生實際繳費代碼或交易。\n\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "ordercard",
+      "width": 768,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S5",
+        "S6",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-ordercard-768.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n✓\n超商代碼付款\n↗\n應付金額\n\n$2000\n\n支援使用卡種類\n\n僅供流程示範，請使用測試資料，不會扣款或送出資料。\n\n信用卡卡號\n持卡人英文姓名\n有效年月\n?\n安全驗證碼\n?\n手機號碼\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "orderconvenient",
+      "width": 768,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S3",
+        "S7",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-orderconvenient-768.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n✓\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇超商\n7-ELEVEN\n全家\nOK mart\n萊爾富\n\n流程示範，不會產生實際繳費代碼或交易。\n\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "paycomplete",
+      "width": 768,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S8",
+        "G5"
+      ],
+      "screenshot": "rebuilt-paycomplete-768.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n✓\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n↗\n✓\n\n流程示範結束\n\n訂單成立！\n\n此為示範畫面，未建立實際訂單，也未進行扣款。\n\n訂單請於兩天內完成匯款，逾期店家將有權取消訂單。\n\n以上為舊版結果文案，僅供展示。\n\n回首頁\n→\n舊版提示文字（示範）\n\nComplete!\n\nWe are working for your order!\n\nOK\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "check",
+      "width": 390,
+      "regions": [
+        "G1",
+        "G2",
+        "S1",
+        "S2",
+        "G3",
+        "G4",
+        "G5"
+      ],
+      "screenshot": "rebuilt-check-390.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n01\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n確認訂單金額\n訂單編號：20200520\nORDER DETAILS\n精美商品\n\n商品說明商品說明商品說明\n\n−\n+\n$1000\n精美商品\n\n商品說明商品說明商品說明\n\n−\n+\n$1000\n共2項\n總計\n$2000\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n↗\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "orderatm",
+      "width": 390,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S3",
+        "S4",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-orderatm-390.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n✓\n信用卡付款\n↗\n超商代碼付款\n↗\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇銀行\n台灣銀行\n第一銀行\n華南銀行\n土地銀行\n\n流程示範，不會產生實際繳費代碼或交易。\n\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "ordercard",
+      "width": 390,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S5",
+        "S6",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-ordercard-390.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n✓\n超商代碼付款\n↗\n應付金額\n\n$2000\n\n支援使用卡種類\n\n僅供流程示範，請使用測試資料，不會扣款或送出資料。\n\n信用卡卡號\n持卡人英文姓名\n有效年月\n?\n安全驗證碼\n?\n手機號碼\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "orderconvenient",
+      "width": 390,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S3",
+        "S7",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-orderconvenient-390.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n✓\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇超商\n7-ELEVEN\n全家\nOK mart\n萊爾富\n\n流程示範，不會產生實際繳費代碼或交易。\n\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "paycomplete",
+      "width": 390,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S8",
+        "G5"
+      ],
+      "screenshot": "rebuilt-paycomplete-390.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n✓\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n↗\n✓\n\n流程示範結束\n\n訂單成立！\n\n此為示範畫面，未建立實際訂單，也未進行扣款。\n\n訂單請於兩天內完成匯款，逾期店家將有權取消訂單。\n\n以上為舊版結果文案，僅供展示。\n\n回首頁\n→\n舊版提示文字（示範）\n\nComplete!\n\nWe are working for your order!\n\nOK\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "check",
+      "width": 320,
+      "regions": [
+        "G1",
+        "G2",
+        "S1",
+        "S2",
+        "G3",
+        "G4",
+        "G5"
+      ],
+      "screenshot": "rebuilt-check-320.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n01\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n確認訂單金額\n訂單編號：20200520\n精美商品\n\n商品說明商品說明商品說明\n\n−\n+\n$1000\n精美商品\n\n商品說明商品說明商品說明\n\n−\n+\n$1000\n共2項\n總計\n$2000\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n↗\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "orderatm",
+      "width": 320,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S3",
+        "S4",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-orderatm-320.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n✓\n信用卡付款\n↗\n超商代碼付款\n↗\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇銀行\n台灣銀行\n第一銀行\n華南銀行\n土地銀行\n\n流程示範，不會產生實際繳費代碼或交易。\n\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "ordercard",
+      "width": 320,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S5",
+        "S6",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-ordercard-320.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n✓\n超商代碼付款\n↗\n應付金額\n\n$2000\n\n支援使用卡種類\n\n僅供流程示範，請使用測試資料，不會扣款或送出資料。\n\n信用卡卡號\n持卡人英文姓名\n有效年月\n?\n安全驗證碼\n?\n手機號碼\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "orderconvenient",
+      "width": 320,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S3",
+        "S7",
+        "G4",
+        "G6",
+        "G5"
+      ],
+      "screenshot": "rebuilt-orderconvenient-320.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n02\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n✓\n\n需自行至超商機台輸入代碼，產生繳費單據後至櫃檯繳費。\n\n應付金額\n\n$2000\n\n選擇超商\n7-ELEVEN\n全家\nOK mart\n萊爾富\n\n流程示範，不會產生實際繳費代碼或交易。\n\ni\n注意事項\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n假文字假文字假文字假文字假文字，假文字假文字假文字假文字。\n←\n返回訂單\n下一步\n→\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    },
+    {
+      "route": "paycomplete",
+      "width": 320,
+      "regions": [
+        "G1",
+        "G2",
+        "G3",
+        "S8",
+        "G5"
+      ],
+      "screenshot": "rebuilt-paycomplete-320.png",
+      "text": "跳至主要內容\n訂單資訊\n付款流程示範\n✓\nStep1 選定支付方式\n✓\nStep2 輸入信用卡資訊或取得支付代碼\n03\n示範結果\n付款方式\nATM付款\n↗\n信用卡付款\n↗\n超商代碼付款\n↗\n✓\n\n流程示範結束\n\n訂單成立！\n\n此為示範畫面，未建立實際訂單，也未進行扣款。\n\n訂單請於兩天內完成匯款，逾期店家將有權取消訂單。\n\n以上為舊版結果文案，僅供展示。\n\n回首頁\n→\n舊版提示文字（示範）\n\nComplete!\n\nWe are working for your order!\n\nOK\nCopy right Company 2020\n僅供流程示範 · 不進行實際付款",
+      "links": [
+        "#/order/orderatm",
+        "#/order/ordercard",
+        "#/order/orderconvenient"
+      ]
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}
